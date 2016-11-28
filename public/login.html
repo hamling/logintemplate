@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Login</title>
+</head>
+<body>
+  <form method="post">
+      <input type="hidden" , name="_csrf" , value="csrfToken">
+      <p>
+          <label for="email">Email Address:</label>
+          <input type="text" , id="email", name="email" , required/>
+      </p>
+      <p>
+          <label for="password">Password:</label>
+          <input type="password" , id="password" name="password" , required/>
+      </p>
+      <input type="submit"/>
+  </form>
+</body>
+</html>
