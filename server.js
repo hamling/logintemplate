@@ -12,7 +12,7 @@ app.post('/register.html', function(req, res) {
 });
 
 app.post('/login.html', function(req, res) {
-  res.send("got a post to register.html");
+  res.send("got a post to login.html");
 });
 
 var server = app.listen(8081, function() {
